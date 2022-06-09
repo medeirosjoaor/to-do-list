@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: rgb(24, 24, 27);
+  height: 100vh;
+}
+
+main {
+  display: block;
+  background-color: rgb(40, 40, 43);
+  border-radius: 10px;
+  height: 500px;
+  margin: auto;
+  width: 1000px;
+}
+
+#list {
+  height: 32px;
+  margin-left: 18px;
+  padding: 9px 0px;
+  position: absolute;
+  width: 32px;
+}
+
+#list:hover {
+  cursor: not-allowed;
+}
+
+#upper {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-left: 705px;
+  position: absolute;
+  width: 190px;
+}
+
+#small {
+  background-image: url(images/small.png);
+  height: 32px;
+  margin: 9px 0px;
+  margin-right: 25px;
+  width: 32px;
+}
+
+#medium {
+  background-image: url(images/medium.png);
+  margin-right: 25px;
+}
+
+#large {
+  background-image: url(images/large.png);
+  height: 48px;
+  margin: 1px 0px;
+  width: 48px;
+}
+
+#small.chosen {
+  background-image: url(images/ktm-small.png);
+}
+
+#medium.chosen {
+  background-image: url(images/ktm-medium.png);
+}
+
+#large.chosen {
+  background-image: url(images/ktm-large.png);
+}
+
+section {
+  background-color: inherit;
+  border-bottom: rgb(56, 56, 59) solid 1px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+}
+
+#input {
+  background-color: rgb(72, 72, 75);
+  border: rgb(72, 72, 75) solid 2px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 500;
+  height: 32px;
+  margin: 9px 0px;
+  padding: 0px 8px;
+  width: 167px;
+}
+
+#input:hover {
+  border: rgb(88, 88, 91) solid 2px;
+}
+
+#input:focus {
+  background-color: rgb(40, 40, 43);
+  border: rgb(255, 102, 0) solid 2px;
+  color: whitesmoke;
+  outline: none;
+}
+
+#add {
+  background-color: rgb(56, 56, 59);
+  background-image: url(images/add.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 32px;
+  margin: 9px 0px;
+  margin-left: 1px;
+  width: 32px;
+}
+
+#add:hover {
+  cursor: not-allowed;
+}
+
+div {
+  background-color: rgb(48, 48, 51);
+  box-sizing: border-box;
+  color: whitesmoke;
+  height: 80%;
+  padding: 20px 50px;
+  width: 100%;
+}
+
+ul {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  opacity: 0.75;
+}
+
+li.small {
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 24px;
+  padding: 3px 0px;
+  width: 150px;
+}
+
+li.medium {
+  box-sizing: border-box;
+  font-size: 24px;
+  height: 30px;
+  padding: 3px 0px;
+  width: 180px;
+}
+
+li.large {
+  box-sizing: border-box;
+  font-size: 30px;
+  height: 40px;
+  padding: 5px 0px;
+  width: 225px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: initial;
+  user-select: none;
+}
+
+.selected {
+  color: rgb(255, 102, 0);
+}
+
+.completed {
+  color: rgb(64, 64, 67);
+  font-style: oblique;
+  text-decoration: line-through;
+}
+
+#lower {
+  background-color: inherit;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-top: rgb(56, 56, 59) solid 1px;
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+}
+
+.button {
+  background-color: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  background-color: rgb(56, 56, 59);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgb(72, 72, 75);
+}
+
+#down {
+  background-image: url(images/down.png);
+  margin-right: 20px;
+}
+
+#up {
+  background-image: url(images/up.png);
+  margin-right: 20px;
+}
+
+#cross {
+  background-image: url(images/cross.png);
+  margin-right: 20px;
+}
+
+#delete {
+  background-image: url(images/delete.png);
+  margin-right: 20px;
+}
+
+#trash {
+  background-image: url(images/trash.png);
+  margin-right: 20px;
+}
+
+#bookmark {
+  background-image: url(images/bookmark.png);
+}
