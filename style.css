@@ -9,13 +9,13 @@ html {
 
 body {
   display: flex;
-  background-color: rgb(24, 24, 27);
+  background-color: rgb(23, 23, 27);
   height: 100vh;
 }
 
 main {
   display: block;
-  background-color: rgb(40, 40, 43);
+  background-color: rgb(39, 39, 43);
   border-radius: 10px;
   height: 500px;
   margin: auto;
@@ -23,7 +23,12 @@ main {
 }
 
 #list {
+  background-color: rgb(39, 39, 43);
+  background-image: url("images/list.png");
+  background-repeat: no-repeat;
+  border: none;
   height: 32px;
+  margin: 9px 0;
   margin-left: 18px;
   padding: 9px 0px;
   position: absolute;
@@ -64,20 +69,20 @@ main {
 }
 
 #small.chosen {
-  background-image: url(images/ktm-small.png);
+  background-image: url(images/ffaf0f-small.png);
 }
 
 #medium.chosen {
-  background-image: url(images/ktm-medium.png);
+  background-image: url(images/ffaf0f-medium.png);
 }
 
 #large.chosen {
-  background-image: url(images/ktm-large.png);
+  background-image: url(images/ffaf0f-large.png);
 }
 
 section {
   background-color: inherit;
-  border-bottom: rgb(56, 56, 59) solid 1px;
+  border-bottom: rgb(55, 55, 59) solid 1px;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   display: flex;
@@ -87,14 +92,13 @@ section {
 }
 
 #input {
-  background-color: rgb(72, 72, 75);
-  border: rgb(72, 72, 75) solid 2px;
+  background-color: rgb(71, 71, 75);
+  border: rgb(71, 71, 71) solid 2px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   box-sizing: border-box;
-  color: whitesmoke;
+  color: rgb(247, 247, 247);
   font-size: 16px;
-  font-weight: 500;
   height: 32px;
   margin: 9px 0px;
   padding: 0px 8px;
@@ -102,18 +106,18 @@ section {
 }
 
 #input:hover {
-  border: rgb(88, 88, 91) solid 2px;
+  border: rgb(87, 87, 91) solid 2px;
 }
 
 #input:focus {
-  background-color: rgb(40, 40, 43);
-  border: rgb(255, 102, 0) solid 2px;
-  color: whitesmoke;
+  background-color: rgb(39, 39, 43);
+  border: rgb(255, 175, 15) solid 2px;
+  color: rgb(247, 247, 247);
   outline: none;
 }
 
 #add {
-  background-color: rgb(56, 56, 59);
+  background-color: rgb(55, 55, 59);
   background-image: url(images/add.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -131,9 +135,9 @@ section {
 }
 
 div {
-  background-color: rgb(48, 48, 51);
+  background-color: rgb(47, 47, 51);
   box-sizing: border-box;
-  color: whitesmoke;
+  color: rgb(247, 247, 247);
   height: 80%;
   padding: 20px 50px;
   width: 100%;
@@ -149,7 +153,7 @@ ul {
 }
 
 li {
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 li.small {
@@ -183,11 +187,11 @@ li:hover {
 }
 
 .selected {
-  color: rgb(255, 102, 0);
+  color: rgb(255, 191, 15);
 }
 
 .completed {
-  color: rgb(64, 64, 67);
+  color: rgb(63, 63, 67);
   font-style: oblique;
   text-decoration: line-through;
 }
@@ -196,7 +200,7 @@ li:hover {
   background-color: inherit;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
-  border-top: rgb(56, 56, 59) solid 1px;
+  border-top: rgb(55, 55, 59) solid 1px;
   display: flex;
   justify-content: center;
   height: 10%;
@@ -216,12 +220,12 @@ li:hover {
 }
 
 .button:hover {
-  background-color: rgb(56, 56, 59);
+  background-color: rgb(55, 55, 59);
   cursor: pointer;
 }
 
 .button:active {
-  background-color: rgb(72, 72, 75);
+  background-color: rgb(71, 71, 75);
 }
 
 #down {
